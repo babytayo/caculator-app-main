@@ -1,3 +1,6 @@
+/* Family: [League Spartan](https://fonts.google.com/specimen/League+Spartan)
+- Weights: 700 */
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -100,6 +103,7 @@ body {
   font-size: 30px;
   text-align: right;
   padding: 1rem;
+  box-shadow: 0 0 2px #000;
 }
 
 .btn_box {
@@ -129,6 +133,10 @@ button:nth-of-type(18) {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   font-size: 16px;
   font-weight: bolder;
+}
+
+.btn:active {
+  opacity: 0.9;
 }
 
 .special_btn2 {
