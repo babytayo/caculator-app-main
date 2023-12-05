@@ -1,5 +1,4 @@
-/* Family: [League Spartan](https://fonts.google.com/specimen/League+Spartan)
-- Weights: 700 */
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 .attribution {
   font-size: 11px;
@@ -21,11 +20,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: League Spartan;
 }
 
 .calculator_body {
-  width: 18rem;
-  font-family: sans-serif;
+  width: 21rem;
 }
 
 .calc-logo p {
@@ -100,14 +99,16 @@ body {
   outline: 0;
   border: none;
   color: #fbfbfb;
-  font-size: 30px;
   text-align: right;
   padding: 1rem;
   box-shadow: 0 0 2px #000;
+  font-family: League Spartan;
+  font-size: 32px;
+  font-weight: 700;
 }
 
 .btn_box {
-  height: 15rem;
+  height: 16rem;
   width: 100%;
   background-color: #181f32;
   border-radius: 8px;
@@ -131,7 +132,6 @@ button:nth-of-type(18) {
   border-radius: 5px;
   border: none;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  font-size: 16px;
   font-weight: bolder;
 }
 
@@ -142,10 +142,9 @@ button:nth-of-type(18) {
 .special_btn2 {
   background: #647299;
   color: #eae3db;
-  font-size: 13px;
-  font-weight: 300;
   border: none;
   border-radius: 5px;
+  font-weight: 500;
 }
 
 .special_btn1 {
@@ -153,4 +152,10 @@ button:nth-of-type(18) {
   color: #eae3db;
   border: none;
   border-radius: 5px;
+}
+
+button {
+  font-family: League Spartan;
+  font-size: 20px;
+  font-weight: 300;
 }
