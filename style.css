@@ -24,7 +24,7 @@ body {
 }
 
 .calculator_body {
-  width: 21rem;
+  width: 22rem;
 }
 
 .calc-logo p {
@@ -92,7 +92,7 @@ body {
 
 .output_area {
   width: 100%;
-  height: 5rem;
+  height: 7rem;
   background-color: #181f32;
   margin: 1rem 0;
   border-radius: 8px;
@@ -108,7 +108,7 @@ body {
 }
 
 .btn_box {
-  height: 16rem;
+  height: 20rem;
   width: 100%;
   background-color: #181f32;
   border-radius: 8px;
