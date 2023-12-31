@@ -1,8 +1,10 @@
 {
   const Switch = document.querySelector(".switch");
   Switch.addEventListener("click", () => {
-    // Object Data store
+    // Toggle variable
     const move = document.querySelector(".toggle");
+
+    // Object Data store
     const changeColor = {
       outputArea: document.querySelector(".output_area"),
       btnBox: document.querySelector(".btn_box"),
@@ -29,7 +31,6 @@
       changeColor.specialBtn1.style.background = "#c85401";
       changeColor.specialBtn1.style.color = "#eae3db";
       changeColor.specialBtn2.forEach((e) => (e.style.background = "#388187"));
-
       !important;
     } else if (move.style.left === "40%") {
       // Toggle btn movement
